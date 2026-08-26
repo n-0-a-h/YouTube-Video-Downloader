@@ -4,7 +4,8 @@ def download_youtube_video(url, output_path="./downloads"):
     ydl_opts = {
         # Format 18 is YouTube's legacy pre-merged MP4 stream (includes audio+video).
         # Fallbacks to 'worst' to grab whatever pre-merged file exists.
-        'format': '18',
+        'format': '18+ba',  # Combine both the Video and audio (ba)
+                            # Need to install FFmpeg for this to work
         'outtmpl': f'{output_path}/%(title)s.%(ext)s',
         'quiet': False,
     }
