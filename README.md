@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # YT Video Downloader
 
 A small Python tool for downloading YouTube videos (with sound) to your PC, built on [yt-dlp](https://github.com/yt-dlp/yt-dlp) and FFmpeg.
@@ -153,3 +154,7 @@ To change the maximum quality, edit `max_height` in `download_youtube_video` (fo
 ## Disclaimer
 
 Only download content you own, have permission to use, or that is licensed for downloading. Downloading may breach YouTube's Terms of Service.
+=======
+# YouTube-Video-Downloader
+Lately I have been experiencing issue when trying to watch my offline downloaded videos on YT thus this Repo contains a simple python script to download YT videos directly into your device.
+>>>>>>> a090fc9e9a428b03ad536521ead46e6d96229180
